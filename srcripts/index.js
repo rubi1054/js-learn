@@ -95,7 +95,7 @@ let x2 = true;
 let x3 = "java script";
 let x4 = "100";
 
-console.log(x1,x2,x3,x4);
+console.log("task1", x1,x2,x3,x4);
 
 //2.
 let greeting = "Hello,";
@@ -109,4 +109,42 @@ let varC = varA - varB;
 let varD = varC;
 let res = varC + varD;
 console.log(varA, varB, varC, varD, res);
+
+/*
+task 4. Написать программу перевода метров в сантименты. пользователь вводит метры, т.е. есть переменная с метрами, и мы должны вывести переменную с сантиметрами. 
+
+task 5. Написать програмуу которая подсчитает площадь прямоугольника (s площать = a*b). a и b задаем вручную. 
+*/
+
+//4.
+let valM = 20;
+let valCM;
+valCM = valM * 100;
+console.log("task4", valCM);
+
+//5.
+let sizeA, sizeB, square;
+sizeA = 30.7;
+sizeB = 80.2;
+square = sizeA*sizeB;
+console.log("task5", square);
+
+//tasks with prompt
+let test;
+test = prompt("Введи значение переменной test");
+console.log("Test is", test);
+
+//Вместо конкретного числа добавляем prompt
+//task 4. re-done
+let valMet = prompt("Введи значение в метрах");
+let valCent;
+valCent = valMet * 100;
+console.log("task4. re-done:", valCent, "cm");
+
+//task.5 re-done
+let sizeAA, sizeBB, squaree;
+sizeAA = prompt("Введи значение ширины");
+sizeBB = prompt("Введи значение длинны");
+squaree = sizeAA * sizeBB
+console.log("task5. re-done:", squaree);
 
