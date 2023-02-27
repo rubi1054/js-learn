@@ -91,18 +91,18 @@ while (condition) {
 
     //вывести сумму чисел от 50 до 70
    console.log('вывести сумму чисел от 50 до 70');
-   let limit = 50, limit2 = 70, step = 1;
+   let limit1 = 50, limit2 = 70, step = 1;
    let f = limit1;
    let re = 0;
    while (f <= limit2){
-     re+ = f;    //re = re + f; 
-     f+ = step;  //f = f + step;
+     re += f;    //re = re + f; 
+     f += step;  //f = f + step;
    }
    console.log (re);
 
    //сокращенные операторы (при том что Х это одно и тоже значение)
    let x = 5;
-   x + = 2; //x = x + 2;
-   x - = 2; //x = x - 2;
-   x * = 2; //x = x * 2;
-   x / = 2; //x = x / 2;
+   x += 2; //x = x + 2;
+   x -= 2; //x = x - 2;
+   x *= 2; //x = x * 2;
+   x /= 2; //x = x / 2;
